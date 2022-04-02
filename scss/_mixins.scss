@@ -1,0 +1,5 @@
+@mixin text($textSize, $textPosition, $textDeco) {
+  font-size: $textSize;
+  text-align: $textPosition;
+  text-decoration: $textDeco;
+}

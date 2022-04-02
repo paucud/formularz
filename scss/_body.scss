@@ -1,0 +1,12 @@
+.help {
+  background-color: $colorBackground;
+  h4 {
+    @include text(20px, center, none);
+  }
+  a {
+    @include text(20px, center, none);
+    &:hover {
+      color: rgba(165, 42, 42, 0.562);
+    }
+  }
+}
